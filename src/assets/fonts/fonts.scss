@@ -1,0 +1,19 @@
+$path-font: './Prompt';
+$fontList: 'Prompt' normal 100 '#{$path-font}/Prompt-Thin.woff2',
+  'Prompt' normal 200 '#{$path-font}/Prompt-ExtraLight.woff2',
+  'Prompt' normal 300 '#{$path-font}/Prompt-Light.woff2',
+  'Prompt' normal 400 '#{$path-font}/Prompt-Regular.woff2',
+  'Prompt' normal 500 '#{$path-font}/Prompt-Medium.woff2',
+  'Prompt' normal 600 '#{$path-font}/Prompt-SemiBold.woff2',
+  'Prompt' normal 700 '#{$path-font}/Prompt-Bold.woff2',
+  'Prompt' normal 800 '#{$path-font}/Prompt-ExtraBold.woff2',
+  'Prompt' normal 900 '#{$path-font}/Prompt-Black.woff2';
+
+@each $font-family, $font-style, $font-weight, $file-path in $fontList {
+  @font-face {
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    src: url('#{$file-path}') format('woff2');
+  }
+}
