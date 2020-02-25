@@ -1,9 +1,9 @@
 import React, { FC, useEffect, useCallback } from 'react'
 import { useHistory } from 'react-router-dom'
 import throttle from 'lodash/throttle'
+import QRCode from 'qrcode.react'
 import './End.scss'
 import Header from 'common/components/Header'
-import LOGO from 'assets/images/logo.svg'
 import ConfirmButton from 'features/faceRegister/common/components/ConfirmButton'
 
 const End: FC = () => {
@@ -15,14 +15,14 @@ const End: FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       goToIntroPage()
-    }, 8000)
+    }, 80000)
     return () => clearTimeout(timer)
   }, [goToIntroPage])
 
   return (
     <div className="End" onTouchStart={throttle(goToIntroPage, 1000, { trailing: false })}>
       <Header />
-      <img className="logo" src={LOGO} alt="" />
+      <QRCode className="qr-code" renderAs="svg" size={800} value=""  includeMargin />
       <div className="text">Registration successfully completed.</div>
       <div className="button-wrap">
         <ConfirmButton isHiddenCancel okText="ปิด" />

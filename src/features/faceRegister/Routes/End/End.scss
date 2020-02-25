@@ -5,15 +5,14 @@
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(to bottom, #0f4b3f 6%, #00261f 70%);
-  > .logo {
-    margin-top: 440px;
-    width: 700px;
-    height: 454px;
-    object-fit: cover;
+
+  > .qr-code {
+    margin-top: 200px;
   }
+
   > .text {
     max-width: 80%;
-    margin-top: 272px;
+    margin-top: 200px;
     font-size: 58px;
     line-height: 90px;
     font-weight: 500;
