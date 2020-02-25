@@ -1,8 +1,22 @@
 @import './assets/fonts/fonts.scss';
 
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   font-family: 'Prompt';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  color: white;
 }

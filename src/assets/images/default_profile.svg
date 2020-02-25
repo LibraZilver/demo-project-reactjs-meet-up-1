@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
+    <defs>
+        <path id="a" d="M0 0h709v709H0z"/>
+        <filter id="b" width="109.9%" height="109.9%" x="-4.9%" y="-3.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.125490196 0 0 0 0 0.223529412 0 0 0 0 0.164705882 0 0 0 1 0"/>
+        </filter>
+        <path id="d" d="M0 0h709v709H0z"/>
+        <filter id="e" width="109.9%" height="109.9%" x="-4.9%" y="-3.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.125490196 0 0 0 0 0.223529412 0 0 0 0 0.164705882 0 0 0 1 0"/>
+        </filter>
+        <path id="f" d="M534.884 470.227c-36.177-1.246-132.232 1.247-143.46-24.932-6.142-14.321-8.173-33.853-8.757-48.62 24.51-17.182 41.744-46.947 53.598-76.491.766.011 1.557-.006 2.409-.092 31.965-3.2 35.707-60.544 33.212-77.997-1.191-8.338-6.976-13.216-11.8-15.884.882-19.56 1.108-82.42-30.302-107.531-37.424-29.92-79.838-28.673-79.838-28.673s-42.414-1.246-79.839 28.673c-31.41 25.11-31.184 87.97-30.302 107.53-4.824 2.669-10.609 7.547-11.8 15.885-2.495 17.453 1.248 74.798 33.213 77.997.852.086 1.643.103 2.409.092 13.082 32.608 32.723 65.481 61.463 81.408-.827 13.992-3.033 30.923-8.514 43.703-11.228 26.179-107.283 23.686-143.46 24.932C136.94 471.474 107 522.586 107 522.586c83.58 42.385 247 34.905 247 34.905s163.42 7.48 247-34.905c0 0-29.94-51.112-66.116-52.359"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-55 -55)">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#000" fill-rule="nonzero" filter="url(#b)" xlink:href="#a"/>
+        <g fill-rule="nonzero" mask="url(#c)">
+            <use fill="#000" filter="url(#e)" xlink:href="#d"/>
+            <use fill="#FFF" fill-opacity=".87" xlink:href="#d"/>
+            <use fill="#BCBCBC" xlink:href="#f"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+.Header {
+  width: 100%;
+  height: 160px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  > .kbank-logo {
+    margin: 48px;
+    width: 255px;
+    height: 64px;
+  }
+}

@@ -1,0 +1,1 @@
+export { faceRegisterReducer } from './faceRegisterReducer'

@@ -1,1 +1,5 @@
-export type TestType = {}
+export type UserType = {
+  name: string
+  age: number
+  gentle: 'male' | 'female'
+}

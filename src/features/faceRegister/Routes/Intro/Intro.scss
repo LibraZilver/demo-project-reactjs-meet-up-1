@@ -1,0 +1,21 @@
+.Intro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #0f4b3f 6%, #00261f 70%);
+
+  > .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  // > .logo {
+  //   margin-top: 608px;
+  //   width: 674px;
+  //   height: 409px;
+  //   object-fit: cover;
+  // }
+}
