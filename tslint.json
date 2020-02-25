@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "ban-ts-ignore": false,
+    "curly": [true, "ignore-same-line"],
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "no-console": false,
+    "no-shadowed-variable": false,
+    "no-string-literal": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "prefer-const": true,
+    "prettier": true
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
