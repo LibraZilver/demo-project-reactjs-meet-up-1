@@ -3,7 +3,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(177deg, #00524c 12%, #007962 112%);
+  background-image: linear-gradient(to bottom, #0f4b3f 6%, #00261f 70%);
 
   > .content {
     width: 100%;
@@ -18,13 +18,6 @@
       margin-top: 160px;
     }
 
-    > .found-you-text {
-      font-size: 34px;
-      line-height: 34px;
-      font-weight: 300;
-      margin-top: 84px;
-    }
-
     > .name-text {
       font-size: 58px;
       line-height: 58px;
@@ -32,36 +25,6 @@
       margin-top: 104px;
       word-break: break-word;
       text-align: center;
-    }
-
-    > .user-type {
-      position: relative;
-      width: 100%;
-      height: fit-content;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 48px;
-      padding: 0 96px;
-      box-sizing: border-box;
-
-      > .text {
-        font-size: 44px;
-        line-height: 60px;
-        font-weight: 500;
-        word-break: break-word;
-        text-align: center;
-      }
-
-      > .edit-icon {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto 0;
-        width: 96px;
-        height: 96px;
-      }
     }
 
     > .mobile-text {

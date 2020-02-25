@@ -6,11 +6,12 @@ import Header from 'common/components/Header'
 import ImageProfile from './ImageProfile'
 import ConfirmButton from 'features/faceRegister/common/components/ConfirmButton'
 import { formatPhoneNumber } from 'utils/ExternalFunctions'
+import IMAGE from 'assets/images/moku.jpg'
 
 const userData = {
-  image: '',
+  image: IMAGE,
   name: 'เจ้าโมกข์',
-  mobile: '09123456789',
+  mobile: '0912345678',
 }
 
 const UserConfirm: FC = () => {

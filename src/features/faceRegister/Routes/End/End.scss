@@ -21,4 +21,10 @@
     text-align: center;
     word-break: break-word;
   }
+
+  > .button-wrap {
+    width: 100%;
+    max-width: 740px;
+    margin: auto;
+  }
 }
