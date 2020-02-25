@@ -4,4 +4,24 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  background-color: lightskyblue;
+
+  > .title {
+    margin-top: 400px;
+    max-width: 80%;
+    font-size: 120px;
+    line-height: 90px;
+    font-weight: 500;
+  }
+
+  > .text {
+    max-width: 80%;
+    margin-top: 160px;
+    margin-right: 420px;
+    font-size: 50px;
+  }
+
+  > input {
+    zoom: 4;
+  }
 }
