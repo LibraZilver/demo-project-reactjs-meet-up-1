@@ -22,7 +22,7 @@ const End: FC = () => {
   return (
     <div className="End" onTouchStart={throttle(goToIntroPage, 1000, { trailing: false })}>
       <Header />
-      <QRCode className="qr-code" renderAs="svg" size={800} value=""  includeMargin />
+      <QRCode className="qr-code" renderAs="svg" size={800} value="https://github.com/WatcharaChe/demo-project-reactjs-meet-up-1"  includeMargin />
       <div className="text">Registration successfully completed.</div>
       <div className="button-wrap">
         <ConfirmButton isHiddenCancel okText="ปิด" />
