@@ -9,7 +9,7 @@
     "@types/redux-immutable-state-invariant": "^2.1.1",
     "classnames": "^2.2.6",
     "connected-react-router": "^6.7.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "node-sass": "^4.13.1",
     "qrcode.react": "^1.0.0",
     "react": "^16.12.0",
